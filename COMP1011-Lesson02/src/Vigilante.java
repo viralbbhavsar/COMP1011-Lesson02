@@ -5,8 +5,11 @@ public class Vigilante extends Villian {
 		super(name);
 		
 	}
-
+	//public methods------------------------------------------------------
 	public void dealsJustice() {
-		System.out.println(this.name+ "is dealing Justice, baby");
+		System.out.println(this.name+ " is dealing Justice, baby");
 	}
+	
+	
+	
 }

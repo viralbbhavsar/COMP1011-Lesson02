@@ -5,7 +5,7 @@ public class Project {
 		
 		//Instantiate Hero
 		
-		Hero hero = new Hero("Big Man");
+		StrongMan hero = new StrongMan("Big Man");
 		hero.fight();
 		hero.run();
 		hero.showAbilities();
@@ -16,6 +16,15 @@ public class Project {
 		villian.run();
 		villian.steals();
 		villian.showAbilities();
+		
+		//Instantiate vigilante-------------------
+		
+		Vigilante vigilante = new Vigilante("Arrow");
+		vigilante.kills();
+		vigilante.run();
+		vigilante.steals();
+		vigilante.dealsJustice();
+		vigilante.showAbilities();
 		
 
 	}
